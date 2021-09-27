@@ -1,12 +1,13 @@
 # Introdução a mensageria na Azure
 ## Requisitos
 - C#
+- .NET
 - Visual Studio ou Terminal
 
 ## Executar o projeto
 1. Faça o clone do projeto
-2. Compilar e executar a aplicação:
->mensageria-azure\scr\livedio
+2. Compilar e executar a aplicação em `mensageria-azure\scr\livedio`:
+>dotnet run
 
 ## Mensagens
 - Mensagem é composta por um pacote de dados brutos
