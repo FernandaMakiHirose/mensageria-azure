@@ -43,6 +43,7 @@
 
 <details>
   <summary><strong>Quiz</strong></summary>
+  
 ## O que são mensagens e que em formatos podem estar?
 Uma mensagem é composta por um pacote com dados brutos e pode estar em diversos formatos, como XML, JSON, Bytes, entre outros
 
