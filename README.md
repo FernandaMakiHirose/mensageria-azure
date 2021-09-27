@@ -1,4 +1,13 @@
 # Introdução a mensageria na Azure
+## Requisitos
+- C#
+- Visual Studio ou Terminal
+
+## Executar o projeto
+1. Faça o clone do projeto
+2. Compilar e executar a aplicação:
+>mensageria-azure\scr\livedio
+
 ## Mensagens
 - Mensagem é composta por um pacote de dados brutos
 - Os dados podem estar em diferentes formatos: XML, Json, Bytes
@@ -19,4 +28,16 @@
 - Separação de aplicativos
 - Amortecimento de carga
 - Balenceamento de carga
+
+## Tópicos
+- Os tópicos de um modo geral são semelhantes as filas, sua principal diferença é poder ter várias assinaturas independentes
+
+## Event Grid
+- O Event Grid é uma ferarmenta da azure direcionada para suportar uma arquietura orientada a eventos
+- Utilizando um modelo Pub/Sub
+
+## Criar um service bus
+- Abra o portal da Azure > Barramento de serviço > (Adicione um serviço) > (Preencha os dados em Criar Namespace) > (Linkando o projeto com o Visual Studio) > (Crie Filas) > (Crie Tópicos e Assinaturas) > (Crie a Assinatura do Evento)
+- No Visual Studio adicione o plugin `Microsoft.Azure.ServiceBus` para consumir mensagens do service bus
+
 
