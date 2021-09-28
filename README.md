@@ -4,6 +4,9 @@
 - .NET
 - Visual Studio ou Terminal
 
+## Licença
+Distribuido sob a licença MIT License. Veja `LICENSE` para mais informações.
+
 ## Executar o projeto
 1. Faça o clone do projeto
 2. Compilar e executar a aplicação em `mensageria-azure\scr\livedio`:
